@@ -1,0 +1,14 @@
+{
+    "presets":[
+        [
+            "@bable/preset-env",
+            {
+                "targets":{
+                   "node":"v20.11.1" 
+                }
+            }
+        ],
+        "bable/preset-react"
+    ],
+    "plugins":["bable/plugins-proposal-class-properties"]
+}
